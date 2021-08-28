@@ -39,7 +39,7 @@ pipeline
            steps
            {
                input message: 'Waiting for Approval from the DM!', submitter: 'naresh'
-               sh label: '', script: 'scp /home/ubuntu/.jenkins/workspace/DeclarativePipeline/webapp/target/webapp.war ubuntu@172.31.26.41:/var/lib/tomcat8/webapps/prodwebapp.war'
+               sh label: '', script: 'scp /home/ubuntu/.jenkins/workspace/DeclarativePipeline/webapp/target/webapp.war ubuntu@172.31.90.21:/var/lib/tomcat8/webapps/prodwebapp.war'
            }
         }
     }
